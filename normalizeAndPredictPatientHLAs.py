@@ -2,7 +2,7 @@
 ############################################################################
 # This codes process and normalize gene expression data, splicing data, and mutation data in parallel.. It also predict patients' HLA types.
 # Usage:
-# python quantifyAndNormalizeData.py -e merged_htseq_FPKM_UQ.tsv -m TCGA.PAAD.maf -f fastqFolder -source 1 -norm True
+# python quantifyAndNormalizeData.py -e sample_gene_expression.tsv -m TCGA.PAAD.maf -f fastqFolder -source 1 -norm True
 
 
 from __future__ import print_function
