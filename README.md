@@ -2,7 +2,7 @@
 This project identify the neoantigens that are splicing-specific, patient-specific and associates with patients' survival at the transcript level. The list of neoantigens are provided in addition of related molecular information. 
 
 ## Requirements
-* Unix system with conda and Docker installed
+This code requires Unix system with conda and Docker installed, as well as the following softwares. 
 
 conda install python=3.10
 
