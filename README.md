@@ -47,10 +47,10 @@ g++ -O3 -o enrich enrich.C utilities.C --std=gnu++11
 ## USAGE
 This code normalize the gene expression, extract 9 mer mutations, quantile and normalize splicing expression from fastq, and predict patient's HLA types from fastq data.
 
+```
 python normalizeAndPredictPatientHLAs.py -e sample_gene_expression.tsv -m samples.maf -f fastqFolder -source 1 -norm True
+```
 
 Either -m, -e, or -f are required for the code to run. 
-
 Source equal 1 indicates TCGA data source. Else, it should be 0. 
-
 The user has the option to choose for normalization or not using -norm.
