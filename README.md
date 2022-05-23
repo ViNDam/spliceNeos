@@ -1,5 +1,6 @@
 # spliceNeos
 This project identify the neoantigens that are splicing-specific, patient-specific and associates with patients' survival at the transcript level. The list of neoantigens are provided in addition of related molecular information. 
+This project is under the publication process. Therefore, only the first step of the automated application is shared. 
 
 ## Requirements
 This code requires Unix system with conda and Docker installed, as well as the following softwares. 
